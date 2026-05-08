@@ -5,3 +5,77 @@ body {
   margin: auto;
   padding: 40px;
 }
+
+.button {
+  display: inline-block;
+  width: 260px;
+
+  padding: 14px 18px;
+  margin-bottom: 14px;
+
+  border: 0,3px solid rgb(150, 37, 37);
+
+  text-align: center;
+
+  color: blue;
+  text-decoration: underline;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.green {
+  background-color: #d9f2d9;
+}
+
+.yellow {
+  background-color: #f2e7b3;
+}
+
+.pink {
+  background-color: #f4d6e3;
+}
+
+.links {
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.footnote-container {
+  position: relative;
+  display: inline;
+}
+
+.footnote-number {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footnote-box {
+  display: none;
+
+  position: absolute;
+
+  left: 0;
+  top: 25px;
+
+  width: 420px;
+
+  background-color: #fff4b8;
+
+  border: 1px solid #d6c76a;
+
+  padding: 12px;
+
+  font-size: 0.95rem;
+
+  line-height: 1.5;
+
+  z-index: 100;
+}
+
+.footnote-container:hover .footnote-box {
+  display: block;
+}
