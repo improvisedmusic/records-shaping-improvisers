@@ -4,20 +4,24 @@ body {
   max-width: 700px;
   margin: auto;
   padding: 40px;
+   text-align: center;
 }
 
 .button {
-  display: inline-block;
+  display: block;
+
   width: 260px;
 
-  padding: 14px 18px;
-  margin-bottom: 14px;
+  margin: 14px auto;
 
-  border: 0,3px solid rgb(150, 37, 37);
+  padding: 14px 18px;
+
+  border: 0.3px solidrgb(99, 111, 245)k;
 
   text-align: center;
 
   color: blue;
+
   text-decoration: underline;
 }
 
@@ -78,4 +82,12 @@ body {
 
 .footnote-container:hover .footnote-box {
   display: block;
+}
+
+.bio {
+  text-align: left;
+
+  max-width: 500px;
+
+  margin: 40px auto 0 auto;
 }
